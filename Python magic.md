@@ -63,3 +63,9 @@ pip install ptpython
 ```bash
 python3 -m http.server -Web locally
 ```
+
+## Install pytorch with specific version
+```bash
+conda install pytorch==1.0.1 torchvision==0.2.2 -c pytorch
+```
+```
