@@ -19,3 +19,8 @@ killall -9 rosmaster
 ```bash
 pip3 install rospkg
 ```
+## Debug rosrun with gdb and valgrind
+```bash
+rosrun --prefix 'gdb -ex run --args' catkin_package_name [arguments...]
+rosrun --prefix 'valgrind --leak-check=full' catkin_package_name [arguments...]
+```
